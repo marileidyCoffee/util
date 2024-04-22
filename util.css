@@ -1,0 +1,40 @@
+:root {
+    --color1: blanchedalmond;
+    --color2: rgb(209, 145, 48);
+
+}
+
+/* start */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Perfect two color div inside div */
+div {
+    width: 100%;
+    height: 200px;
+}
+
+.div1 {
+    background-color: var(--color1)
+}
+
+.div2 {
+    background-image: linear-gradient(to bottom, var(--color1) 50%, var(--color2) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2-2 {
+    text-align: center;
+    width: 80%;
+    height: 70px;
+    background-color: aliceblue;
+}
+
+.div3 {
+    background-color: var(--color2)
+}
