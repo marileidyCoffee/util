@@ -1,0 +1,46 @@
+/* tag */
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/*button*/
+.btn {
+    border: none;
+    background-color: blueviolet;
+    /* 5px is x, and 15px is y */
+    padding: 5px 15px;
+    /* people need to read */
+    min-width: fit-content;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(224, 37, 12);
+}
+
+/* link info from w3schools */
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
